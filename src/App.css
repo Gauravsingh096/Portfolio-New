@@ -1,0 +1,55 @@
+:root{
+    --primary-100:#0D6E6E;
+    --primary-200:#4a9d9c;
+    --primary-300:#afffff;
+    --accent-100:#FF3D3D;
+    --accent-200:#ffe0c8;
+    --text-100:#FFFFFF;
+    --text-200:#e0e0e0;
+    --bg-100:#0D1F2D;
+    --bg-200:#1d2e3d;
+    --bg-300:#354656;
+      
+}
+body{
+    overflow-x: hidden;
+    background-color: var(--bg-100);
+}
+.box{
+    background-color: var(--bg-200);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.skills span{
+    color: var(--accent-200);
+    border: 1px solid var(--text-100);
+    background-color: var(--bg-300);
+    padding: 0.6rem;
+    border-radius: 1rem;
+
+}
+@media screen  and (max-width:640px) {
+    #header{
+        width: 100%;
+        gap: 0;
+    }
+    #name{
+        align-self: center;
+    }    
+    #hire{
+        align-self: center;
+        margin: 1.5rem;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .media{
+        margin-top: 1rem;
+    }
+    .edu__name{
+        width: 60%;
+    }
+    .edu__date{
+        width: 30%;
+    }
+}
