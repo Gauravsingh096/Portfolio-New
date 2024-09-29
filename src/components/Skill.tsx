@@ -18,13 +18,13 @@ function Skill() {
         <span>ExpressJS</span>
         <span>NodeJS</span>
         <span>MongoDB</span>
+        <span>React Native</span>
         <span>MySQL</span>
         <span>GitHub</span>
         <span>Postman</span>
         <span>Numpy</span>
         <span>Pandas</span>
         <span>Matplotlib</span>
-        <span>React Native</span>
       </div>
     </div>
 
