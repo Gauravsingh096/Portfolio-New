@@ -24,6 +24,8 @@ function Skill() {
         <span>Postman</span>
         <span>Numpy</span>
         <span>Pandas</span>
+        <span>AWS Cloud</span>
+        <span>Flask</span>
         <span>Matplotlib</span>
       </div>
     </div>

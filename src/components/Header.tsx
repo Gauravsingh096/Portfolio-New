@@ -1,4 +1,4 @@
-import profile from "../assets/profile-img.png";
+import profile from "../assets/profiles.png";
 import "../App.css";
 function Header() {
   return (
@@ -6,8 +6,8 @@ function Header() {
 
       <div className="flex flex-col items-start justify-center gap-2">
         <div id="header"className="flex sm:flex-row flex-col items-start sm:items-center sm:justify-center gap-4">
-          <h1 id="name" className="text-4xl font-bold">Aryan Kesharwani</h1>
-          <a href="mailto:work.aryankesharwani04@gmail.com" id="hire" className="text-sm p-1 bg-[var(--primary-200)] text-[var(--accent-200)] rounded-lg font-bold">
+          <h1 id="name" className="text-4xl font-bold">Gaurav Singh</h1>
+          <a href="mailto:2k22.cse.2213452@gmail.com" id="hire" className="text-sm p-1 bg-[var(--primary-200)] text-[var(--accent-200)] rounded-lg font-bold">
             Hire Me!
           </a>
         </div>
@@ -16,13 +16,13 @@ function Header() {
         </p>
         <i className="ri-map-pin-2-line text-md flex justify-center items-end gap-1 text-[var(--accent-200)]"><h2 className="text-xl">Kanpur, India</h2></i>
         <div className="flex justify-between items-center gap-5 mt-2">
-          <a href="https://www.linkedin.com/in/aryankesharwani04/">
+          <a href="https://www.linkedin.com/in/Gauravsingh096/">
             <i className="ri-linkedin-box-fill text-3xl text-[var(--accent-200)]"></i>
           </a>
-          <a href="https://github.com/aryankesharwani04">
+          <a href="https://github.com/Gauravsingh096">
             <i className="ri-github-fill text-3xl text-[var(--accent-200)]"></i>
           </a>
-          <a href="mailto:work.aryankesharwani04@gmail.com">
+          <a href="mailto:2k22.cse.2213452@gmail.com">
             <i className="ri-mail-add-line text-3xl text-[var(--accent-200)]"></i>
           </a>
           <a href="#">
@@ -30,9 +30,11 @@ function Header() {
           </a>
         </div>
       </div>
-      <div className="min-w-[100px] p-4 z-10 aspect-square w-40 sm:w-60">
-        <img src={profile} alt="" className="w-full" />
+      <div className="w-40 sm:w-60 aspect-square overflow-hidden rounded-full z-10">
+        <img src={profile} alt="" className="w-full h-full object-cover" />
       </div>
+
+
     </div>
   );
 }

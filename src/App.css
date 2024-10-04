@@ -1,14 +1,19 @@
-:root{
-    --primary-100:#0D6E6E;
-    --primary-200:#4a9d9c;
-    --primary-300:#afffff;
-    --accent-100:#FF3D3D;
-    --accent-200:#ffe0c8;
-    --text-100:#FFFFFF;
-    --text-200:#e0e0e0;
-    --bg-100:#0D1F2D;
-    --bg-200:#1d2e3d;
-    --bg-300:#354656;
+:root{  
+    --primary-100:#03306e;
+    --primary-200:#6590db;
+    --primary-100:#2E8B57;
+    --primary-200:#61bc84;
+    --primary-100:#f7cac9;
+    --primary-200:#5c5c5c;
+    --primary-300:#5c5c5c;
+    --accent-100:#000000;
+    --accent-200:#000000;
+    --text-100:#000000;
+    --text-200:#000000;
+    --bg-100:#c5c5b7;
+    --bg-200:#dcdcc5;
+    --bg-300:#ccccc0;
+      
       
 }
 body{

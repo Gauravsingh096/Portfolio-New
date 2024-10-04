@@ -5,41 +5,52 @@ function Project() {
       <h1 className="text-3xl font-bold mb-4 text-[var(--primary-300)]">Projects</h1>
       <div className="">
         <div className="box">
-          <a href="https://github.com/Aryankesharwani04/Journee"><h2 className="text-xl font-bold text-[var(--accent-200)]"><u>Journee</u></h2></a>
+          <a href="https://github.com/Gauravsingh096/ShrareRooms"><h2 className="text-xl font-bold text-[var(--accent-200)]"><u>Share Rooms</u> <span>(In Progress)</span></h2></a>
           <ul className="list-disc text-[var(--text-200)] pl-4 text-justify">
-            <li> Developed a Tours and Travels Booking Website using the MERN stack.</li>
-            <li>Designed and implemented the frontend using ReactJS.</li>
-            <li>Created models for login, registration, and tour reviews using ExpressJS and MongoDB.</li>
-            <li>Verified all routes and functionalities using Postman.</li>
-            <li>Implemented robust backend functionalities and data management to handle client requests.</li>
+            <li>Created an intuitive hotel room booking platform with real-time availability and user-friendly navigation.</li>
+            <li>Tech Stack: MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
+            <li>Built a user-friendly room booking interface using React.js with dynamic room selection capabilities.</li>
+            <li>Developed REST APIs using Express.js for booking management and user registration.</li>
             <li>Connected the frontend to the backend, enabling seamless data flow and user interaction.</li>
+            <li>Incorporated feedback from users to enhance the booking flow and UI elements for a better user experience.</li>
             <li>Deployed the application to a production environment, ensuring accessibility and scalability.</li>
           </ul>
         </div>
         <div className="box">
-          <a href="https://github.com/Aryankesharwani04/javascriptBackend/tree/main/VideoStreaming"><h2 className="text-xl font-bold text-[var(--accent-200)]"><u>VideoFlix</u> <span>(In Progress)</span></h2></a>
+          <a href="https://github.com/Gauravsingh096/Livestream-webapp"><h2 className="text-xl font-bold text-[var(--accent-200)]"><u>Livestream Webapp</u></h2></a>
           <ul className="list-disc text-[var(--text-200)] pl-4 text-justify">
-            <li>Currently developing a video streaming application to learn and implement backend technologies.</li>
-            <li> Using Express.js and tools like Postman, Cloudinary, MongoDB Atlas to manage backend operations and database interactions.</li>
-            <li>Enhancing back-end development skills by handling various server-side tasks and integrating APIs.</li>
+            <li>Developed a video streaming web application with RTSP support and overlay management.</li>
+            <li>Tech Stack: Flask, React.js, MongoDB</li>
+            <li>Created a React-based UI for video playback and overlay controls.</li>
+            <li>Implemented Flask APIs to handle video streaming and CRUD operations for overlays.</li>
+            <li>Verified functionalities with Postman and deployed the application to ensure real-time video streaming.</li>
           </ul>
         </div>
         <div className="box">
-          <a href="https://github.com/Aryankesharwani04/WebScrapping/tree/main/attendanceGetter"><h1 className="text-xl font-bold text-[var(--accent-200)]"><u>Attendance Scraping</u></h1></a>
+          <a href="https://github.com/Gauravsingh096/PawsVedha"><h1 className="text-xl font-bold text-[var(--accent-200)]"><u>Paws Vedha</u> <span>(In Progress)</span></h1></a>
           <ul className="list-disc text-[var(--text-200)] pl-4 text-justify">
-            <li>Designed a web scraping tool using Node.js Puppeteer to automate the retrieval of attendance data from the college ERP portal.</li>
-            <li>Deployed automated login to securely handle user authentication. </li>
-            <li>Extracted and parsed HTML content to get total lecture and total absents.</li>
-            <li>Acquired skills in web scraping, automated web interactions, and data extraction using Puppeteer.</li>
+            <li>Developing a platform for virtual vet consultations, pet healthcare solutions, and an e-commerce marketplace.</li>
+            <li>Tech Stack: MERN Stack</li>
+            <li>Designed a user-friendly interface for virtual consultations and product browsing.</li>
+            <li>Created backend APIs for vet services and e-commerce transactions, storing data in MongoDB.</li>
           </ul>
         </div>
         <div className="box">
-          <a href="https://github.com/Aryankesharwani04/javascriptBackend/tree/main/CHESS"><h1 className="text-xl font-bold text-[var(--accent-200)]"><u>Chess Game</u></h1></a>
+          <a href="https://github.com/Gauravsingh096/Cabinix-A-cab-booking-Site"><h1 className="text-xl font-bold text-[var(--accent-200)]"><u>Cabinix</u></h1></a>
           <ul className="list-disc text-[var(--text-200)] pl-4 text-justify">
-            <li>Built a live chess game using Express.js and Socket.io for real-time communication between users.</li>
-            <li>Engineered chess moves logic and managed game state using Chess.js CDN.</li>
-            <li>Utilized EJS to render content dynamically based on backend data, enhancing the user experience.</li>
-            <li>Gained experience in bidirectional communication between web clients and servers, utilizing socket.on and socket.emit for seamless updates.</li>
+            <li>Developed a web-based cab booking platform using Firebase for authentication and Google Maps for real-time cab tracking.</li>
+            <li>Tech Stack: Firebase, JavaScript, HTML, CSS</li>
+            <li>Designed a responsive user interface and integrated Maps for enhanced booking and navigation experience.</li>
+            <li>Developed secure user authentication using Firebase.</li>
+          </ul>
+        </div>
+        <div className="box">
+          <a href="https://github.com/ayushsharma-1/Marine-Pollution-SeaGuardian"><h1 className="text-xl font-bold text-[var(--accent-200)]"><u>Sea Guardian</u></h1></a>
+          <ul className="list-disc text-[var(--text-200)] pl-4 text-justify">
+           <li>Created a web platform to raise awareness and promote action against marine pollution.</li>
+           <li>Tech Stack: MERN Stack and Firebase</li>
+           <li>Built an engaging UI using React.js, collaborating with NGOs to display pollution data.</li>
+           <li>Created APIs using Node.js and Express.js to handle user interactions and manage pollution statistics.</li>
           </ul>
         </div>
       </div>
