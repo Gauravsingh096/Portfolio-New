@@ -14,10 +14,11 @@ function App() {
         <div className="flex-column justify-between items-center h-full w-[700px] m-6 ">
           <Header/>
           <About/>
+          <Education/>
           <Skill/>
           <Project/>
           <Achivement/>
-          <Education/>
+         
         </div>
       </div>
     </>
