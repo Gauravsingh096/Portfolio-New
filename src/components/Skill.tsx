@@ -12,16 +12,12 @@ function Skill() {
         <span>Data Structures and Algorithm</span>
         <span>Database Management System</span>
         <span>Object-Oriented Programming</span>
-        <span>HTML5</span>
-        <span>CSS</span>
         <span>ReactJS</span>
         <span>ExpressJS</span>
         <span>NodeJS</span>
         <span>MongoDB</span>
-        <span>React Native</span>
         <span>MySQL</span>
         <span>GitHub</span>
-        <span>Postman</span>
         <span>Numpy</span>
         <span>Pandas</span>
         <span>AWS Cloud</span>

@@ -10,7 +10,7 @@ function Education() {
         </div>
         <div className="edu__date">
           <h4>Expected 2026</h4>
-          <h4>SGPA: 8.89 (3rd sem)</h4>
+          <h4>SGPA: 9.2 (3rd sem)</h4>
         </div>
       </div>
       <div className="box flex justify-between">
